@@ -1,0 +1,39 @@
+{
+  "name": "bottie",
+  "version": "0.0.2",
+  "description": "Simple BotKit bot with NLP extended with sentiment and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/bottie.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "botkit",
+    "nlp",
+    "ai",
+    "natural",
+    "language",
+    "andrew",
+    "templeton",
+    "vveerrgg"
+  ],
+  "author": "Andrew Templeton and Vveerrgg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/bottie/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/bottie#readme",
+  "dependencies": {
+    "botkit": "0.0.5",
+    "elizabot": "0.0.2",
+    "natural": "^0.2.1",
+    "node-env-file": "https://registry.npmjs.org/node-env-file/-/node-env-file-0.1.8.tgz",
+    "request": "2.75.0",
+    "sentiment": "2.1.0"
+  }
+}
