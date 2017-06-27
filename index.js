@@ -56,6 +56,10 @@ Bottie.Ears
       if (interpretation.guess) {
         console.log('Invoking skill: ' + interpretation.guess);
         Bottie.Brain.invoke(interpretation.guess, interpretation, speech, message);
+        // append.write [message.text] ---> to a file
+        fs.appendFile('phrase-errors.txt', '\nChannel: ' + message.channel + ' User:' + message.user + ' - ' + message.text, function (err) {
+          console.log('\n\tBrain Err: Appending phrase for review\n\t\t' + message.text + '\n');
+        });
       } else {
         //speech.replyPrivate(message, 'Hmm... I don\'t have a response what you said... I\'ll save it and try to learn about it later.');
         // speech.reply(message, '```\n' + JSON.stringify(interpretation) + '\n```');
