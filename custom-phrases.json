@@ -1,5 +1,59 @@
 {
   "ansCreateWallet": [
-    "How can I create a wallet?"
+    "how do i create a wallet?",
+    "is there somewhere i can see how to create wallet",
+    "where can i find the wallet",
+    "is there an android wallet"
+  ],
+  "purchaseAns": [
+    "How can i get ANS?",
+    "How can I get NEO?",
+    "where can i buy ans",
+    "where can i buy gas?",
+    "where can i buy ant shares?",
+    "where can i get antshares?",
+    "where can i get gas?",
+    "where can i get ant coins?",
+    "where can i get ANC?"
+  ],
+  "ansGetStarted": [
+    "How can i get into ANS?",
+    "how do i start?",
+    "I am new to AntShares (and crypto?) how to get started?",
+    "how to get started?",
+    "I'm new to crypto what do i do?"
+  ],
+  "ansInformation": [
+    "where can i find information about ans?",
+    "where can i find information about neo?",
+    "how is ans different?",
+    "is there some background information?",
+    "are there resources about ans?"
+  ],
+  "ansFee": [
+    "why is there a transfer fee?",
+    "is there really a 1 ans transfer fee?",
+    "is a 1 ans transfer fee normal?",
+    "why is there a transaction price?",
+    "are transactions free?"
+  ],
+  "ansFromIco": [
+    "How can i get my ans from the ICO?",
+    "is there a way to get ans from the ico?"
+  ],
+  "ansWalletSpeed": [
+    "Why is the wallet so slow?",
+    "is there a way to sync the wallet faster?",
+    "how can i sync the wallet?",
+    "Can the wallet sync faster?"
+  ],
+  "ansPrice": [
+    "what is the current ans price?",
+    "how much is ans?",
+    "what is the current neo price?",
+    "how much is neo",
+    "ans price?",
+    "current ans pirce?",
+    "current neo price?"
   ]
 }

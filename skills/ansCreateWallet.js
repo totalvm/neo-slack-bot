@@ -1,6 +1,11 @@
 
 module.exports = function(skill, info, bot, message) {
-  console.log('INVOCATION OF NON-CONFIGURED SKILL: ' + skill);
-  bot.reply(message, 'I understood this as `' + skill +
-    '`, but you haven\'t configured how to make me work yet!');
+  bot.startPrivateConversation(message, function(err, conv) {
+    if(err) {
+      console.log('ansCreateWalletError', err);
+    } else {
+      conv.say('*I understand you are looking for a way to create a wallet.* \n' +
+        'Please go to this url to see a tutorial: https://www.reddit.com/r/Antshares/comments/6j8pcp/a_basic_guide_to_the_antshares_pc_wallet/');
+    }
+  });
 };

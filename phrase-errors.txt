@@ -16,3 +16,233 @@ Channel: G601G66Q3 User:U5WKMH8UA - hello is there something
 Channel: G601G66Q3 User:U5WKMH8UA - hello is there something?
 Channel: G601G66Q3 User:U5WKMH8UA - hello is ans still available?
 Channel: G603BJAQN User:U5UQ6D9RD - how i crate a wallt ?
+Channel: C20CML7A9 User:U5UQ6D9RD - What did the bot say to the other bot?
+Channel: C20CML7A9 User:U60621XM2 - what is it?
+Channel: C27HUP45N User:U600W7Y6N - You mean when a rise can be considered 'real' right?
+Channel: C20CML7A9 User:U5B5N55R6 - Can the web wallet earn you ANC?
+Channel: C27HUP45N User:U5Z05SNAG - Will it hit $8-$10?
+Channel: C20CML7A9 User:U5YC0VDEG - was anyone able to purchase BNC?
+Channel: C20CML7A9 User:U5ZE9V1S9 - Hey guys will anyone be able to translate the tv coverage so that we can understand the slant the media are taking on things? We could spread the translation via reddit etc. 
+
+Best advert today is on <http://coinmarketcap.com|coinmarketcap.com> :grin:
+Channel: G603BJAQN User:U5ZFXKXD0 - wondering with the CLI… is there a way to claim GAS for the currently open wallet?
+Channel: G603BJAQN User:U5TU76U4T - so not just a problem with windows wallets, but a way the system works?
+Channel: C27HUP45N User:U603RM0H0 - Do we have to do anything with our current ANS Shares ?
+Channel: C27HUP45N User:U603RM0H0 - or will they be automatically converted to Neo?
+Channel: G603BJAQN User:U60621XM2 - From what I understand you need to have the AntShare node running in order to be part of the PoS consensus to earn ANC correct?
+Channel: G603BJAQN User:U5WDWN9GT - any tips for keeping identity secure when committing to public repos? I'm not too comfortable with my real name and email address being linked to projects involving lots of money and hackers.
+Channel: C20CML7A9 User:U60H92ABG - What about creating a Transifex project, so we can translate website, whitepaper etc?
+Channel: C20CML7A9 User:U60H92ABG - Who should create it? Is there any NEO admin?
+Channel: C20CML7A9 User:U60DUPHLM - How can you open your web wallet on your offline client wallet, anyone?
+Channel: C20CML7A9 User:U60DUPHLM - How do i know this webwallet is legit?
+Channel: C20CML7A9 User:U60DUPHLM - How do you login exactly..
+Channel: C27HUP45N User:U5ZP1LZB3 - is this a pump and dump? or was there some news?
+Channel: C20CML7A9 User:U60DUPHLM - How do you login from you web wallet to your desktop wallet?
+Channel: C27HUP45N User:U5WP8JUA3 - Is it still a bear market though? All the other coins are showing green too
+Channel: C27HUP45N User:U5WUX5AH2 - What a tease
+Channel: C27HUP45N User:U5Z05SNAG - Whole bittrez sold again at $7?
+Channel: C27HUP45N User:U5WU1B1M5 - 39 grand for a flat?!
+Channel: C27HUP45N User:U5WU1B1M5 - how long will we stay @ 7$ for this time :stuck_out_tongue:
+Channel: C27HUP45N User:U5WU1B1M5 - how much would you actually make...is it worth the stress :stuck_out_tongue:
+Channel: C27HUP45N User:U5TBNPDMW - Hell, why is NEM worth so much?
+Channel: C27HUP45N User:U5ZKNEB3N - What’s happening with ANS now reminds me of doge in 2013 .. Chinese whales heavily manipulated the market with PnD. Don’t even bother trying to time the market, because it won’t work.
+Channel: C27HUP45N User:U5ZE9V1S9 - People, if i wanted to create a 'paper wallet', would that just mean writing down my private key/usrnme+passsord then just deleting wallet?
+Channel: G603BJAQN User:U5TU76U4T - is it on github? if so you can click on pull tab and request it
+Channel: G603BJAQN User:U5TU76U4T - which is different from github, which is a platform
+Channel: G603BJAQN User:U5ZFXKXD0 - did you clone the master branch or fork?
+Channel: G603BJAQN User:U5YNDLZ4H - Should I clone a fork? Push and submit or?
+Channel: G603BJAQN User:U5YNDLZ4H - PR?
+Channel: G603BJAQN User:U5YNDLZ4H - Thanks guys that actually makes a lot of sense because once I push my changes to my Fork then I could even go on to the website I'm sure and my changes will be there I can submit a pull for them that sound about right?
+Channel: C27HUP45N User:U5WU1B1M5 - productive day?
+Channel: G603BJAQN User:U5TU76U4T - you could download a markdown ide and edit locally?
+Channel: G603BJAQN User:U5YNDLZ4H - I'm editing the files locally but I would like to be able to test their functionality before creating a new commit, since this mainly revolves around GitHub markdown I'm not sure how to test it without committing the changes to my Fork which then when I submit a pull request I just seems that there's the possibility commits won't even do anything because another commit right after it fixed the problem that the other one didn't does that make sense?
+Channel: G603BJAQN User:U5YNDLZ4H - How can I squash and merge when I submit or is that something you have to do
+Channel: G603BJAQN User:U5YNDLZ4H - Whatever makes everybody else's job easy I don't want to be a burden to the team that's all
+Channel: G603BJAQN User:U5YNDLZ4H - How can I get our Reddit post back up top so people in the Western World can see it and start going through it now or do I need to create another post so it's at least in the 'new' section
+Channel: G603BJAQN User:U5YNDLZ4H - However you feel would be best to handle it I'm all for it just let me know what I can do
+Channel: G603BJAQN User:U5APAM45T - Q: Is there technical documentation in english? Can i help translating?
+Channel: G603BJAQN User:U5YNDLZ4H - No what I meant was I liked the second update page for that reason, the original update page was cool because it had a lot of upvotes and people were really showing their appreciation to us but the goal isn't to be admired but too publish information you know?
+Channel: C27HUP45N User:U5Z2ZN3F0 - anyone have any good buys atm?
+Channel: C27HUP45N User:U5VAD50CV - So other than discounts in fees, will Binance coins be worth anything??
+Channel: C27HUP45N User:U5ZKNEB3N - you guys think china’s going to dump on us?
+Channel: C27HUP45N User:U5Z2ZN3F0 - didnt the news segment air last night tho?
+Channel: C27HUP45N User:U5Z2ZN3F0 - which means the Chinese alreadyknew about it and prices already reflects it?
+Channel: C27HUP45N User:U5Z2ZN3F0 - why no ANC?
+Channel: C27HUP45N User:U5Z05SNAG - Yes you are a team of investors right or just one person?
+Channel: C27HUP45N User:U5WU1B1M5 - don't we all know this stuff anyway?
+Channel: C27HUP45N User:U5Z05SNAG - Not a bad idea right?
+Channel: C27HUP45N User:U5Z2ZN3F0 - does anyone have time to explain to me how ICO's work and the risks involved? Will be willing to pay for your time if you have great expertise. Thanks
+Channel: C27HUP45N User:U5WU1B1M5 - weren't you spamming a new neo reddit not long ago?!
+Channel: C27HUP45N User:U5Z2ZN3F0 - Obviously Binance isnt a ponzi scheme but how do you know their price point isn't inflated?
+Channel: C27HUP45N User:U5Z2ZN3F0 - and don't ICO's tie up your money for a while? the ico coins dont hit the markets til months later right
+Channel: C27HUP45N User:U5Z2ZN3F0 - which one?
+Channel: C27HUP45N User:U5H64DSGZ - where is my toothpick violin
+Channel: C27HUP45N User:U5WU1B1M5 - you mean random? lol
+Channel: C27HUP45N User:U5WU1B1M5 - how do I recover it?
+Channel: C27HUP45N User:U5Z05SNAG - you liked it?
+Channel: C27HUP45N User:U5WU1B1M5 - time do you stay up till?
+Channel: C27HUP45N User:U5WU1B1M5 - me too <@U5Z05SNAG> what languages you starting with?
+Channel: C27HUP45N User:U5VJZ91V3 - Gents, while many probably enjoy some random chats on this channel, can we try to keep the convo on topic and reserve the rest to random? Pretty please, put a fucking cherry on top
+Channel: C27HUP45N User:U5Z05SNAG - Lottery??? explain me?
+Channel: C27HUP45N User:U5Z05SNAG - Are you sure?
+Channel: C27HUP45N User:U5Z05SNAG - Do you speak Chinese?
+Channel: C27HUP45N User:U5Z05SNAG - Can we buy multiple lottery tickets? Othewise I put all my savings on there right now
+Channel: C27HUP45N User:U5Z05SNAG - If you win its 2700 bnc righ for 1 eth?
+Channel: C27HUP45N User:U5Z05SNAG - Did you participate in phase 1?
+Channel: C27HUP45N User:U2XLTS37Y - No one knows what will happen?
+Channel: C27HUP45N User:U5Z05SNAG - Whats is your most expensive ans?
+Channel: C27HUP45N User:U5Z05SNAG - It was abover $10?
+Channel: C27HUP45N User:U5Z0Q1UQN - You don't have any other coins besides Ans?
+Channel: C27HUP45N User:U5Z05SNAG - 30x profit?
+Channel: C27HUP45N User:U5Z05SNAG - just like diamond coin I never heard anyone about diamond coin?
+Channel: C27HUP45N User:U5Z05SNAG - or you need to hold in a special wallet?
+Channel: C27HUP45N User:U5Z05SNAG - in an eth wallet?
+Channel: C27HUP45N User:U5Z05SNAG - But I guess all this info is also in the whitepaper right?
+Channel: C27HUP45N User:U5Z05SNAG - okay thank you and you can also claim it in that wallet?
+Channel: C27HUP45N User:U60JFPKTL - Hey guys, quick question
+I have a mac and use the web wallet for my antshares
+How do I know if my antshares are producing ant coins?
+Any help is much appreciated!
+Channel: C27HUP45N User:U5W8FFNBS - Can't this go in general?
+Channel: C27HUP45N User:U5W8FFNBS - Why bother having a <#C27HUP45N|market> chat when there is no sign of market talk
+Channel: C27HUP45N User:U5Z05SNAG - in which time zone are you?
+Channel: C27HUP45N User:U5Z05SNAG - English speaking time zone?
+Channel: C27HUP45N User:U5YK0J8CD - what percentage split do you gusy have between eth and neo?
+Channel: C27HUP45N User:U5Z05SNAG - driving the price ?
+Channel: C27HUP45N User:U5YK0J8CD - How many NeoShares will ever be made? I am trying to find the number but don't seeem to be able to
+Channel: C27HUP45N User:U5YGN7UEM - Which might be why ANS got some attention and decoupled from the falling overall market yesterday
+Channel: C27HUP45N User:U5W8FFNBS - How much of the growth in the last 24 hours is organic and how much is it whales attempting to P&amp;D it?
+Channel: C27HUP45N User:U5W15SM5K - So have yall been following chinese markets for ans? Its pretty low prices.
+Channel: G603BJAQN User:U5E1GTSH2 - Don't they have an English white paper already? Like from the official dev team
+Channel: C27HUP45N User:U5Z0Q1UQN - How low we talkin
+Channel: G603BJAQN User:U5UQ6D9RD - Is already a ton of stuff
+Channel: C27HUP45N User:U5ZD4LW0Z - Hi, anyone can advise what's the impact of segwit to BTC?
+Channel: C27HUP45N User:U5Z05SNAG - Why not?
+Channel: C27HUP45N User:U5Z05SNAG - Does it crash?
+Channel: C27HUP45N User:U5Z05SNAG - Going to buy your lambo?
+Channel: C27HUP45N User:U5Z05SNAG - You want the skyline?
+Channel: C27HUP45N User:U5Z05SNAG - So any $7 dollar talk left?
+Channel: C27HUP45N User:U5XMTKKGS - Why American can not by EOS?  some one who please tell me the reason why
+Channel: C27HUP45N User:U5Z05SNAG - Eos?
+Channel: C27HUP45N User:U5Z05SNAG - Nobody is investing?
+Channel: C27HUP45N User:U5Z05SNAG - Guys 1st of August is it already 100% sure they will do segwit?
+Channel: G603BJAQN User:U5YNDLZ4H - I want us to be the team who begins the creation of this environment, the start of Zion?
+Channel: C27HUP45N User:U5Z05SNAG - when I have roi. I will buy another one etc.
+Channel: C27HUP45N User:U5ZD4LW0Z - Is only profitable if your area has low electricity costs or cold ?
+Channel: C27HUP45N User:U5ZD4LW0Z - So u pay the DC for hosting?
+Channel: C27HUP45N User:U5ZD4LW0Z - Why don't use genesis mining? Less hassle
+Channel: C27HUP45N User:U5Z2ZN3F0 - Amir, you bought 100,000 ASIC miners? O_O
+Channel: C27HUP45N User:U5Z2ZN3F0 - oh, by doing a groupbuy did you get a discount?
+Channel: C27HUP45N User:U5Z2ZN3F0 - is that better?
+Channel: C27HUP45N User:U5Z2ZN3F0 - or more cost effective?
+Channel: C27HUP45N User:U5Z2ZN3F0 - hmmm dont people use bots to buy them when they're available?
+Channel: C27HUP45N User:U5Z2ZN3F0 - how could anyone get in fast enough
+Channel: C27HUP45N User:U5Z2ZN3F0 - so why is the antminer s9 a bad buy?
+Channel: C27HUP45N User:U5Z2ZN3F0 - can you help me get in on this? I'll pay via paypal invoice
+Channel: C27HUP45N User:U5Z2ZN3F0 - whats the point of the groupbuy tho... do you guys get a discount?
+Channel: C27HUP45N User:U5Z05SNAG - Im in there with my gmail?
+Channel: C27HUP45N User:U5Z2ZN3F0 - how do i trust a bunch of random strangers on the internet with my hardware tho
+Channel: C27HUP45N User:U600W7Y6N - where is the dip at ._.
+Channel: C27HUP45N User:U600W7Y6N - what do you think guys
+Channel: C27HUP45N User:U5WKMH8UA - where?
+Channel: C27HUP45N User:U2UD540AG - with this Yaohao lottery, if you do not win, you get back your ETH, yes?
+Channel: C27HUP45N User:U5X78M2B0 - Can ou share the article?
+Channel: C27HUP45N User:U5Z2ZN3F0 - anyone know?
+Channel: G603BJAQN User:U5YNDLZ4H - Hey <@U5APAM45T> you say things moved too fast too quick, what are you referring to?
+Channel: C27HUP45N User:U5Z05SNAG - I still dont get what nexus is doing does anybody know?
+Channel: G603BJAQN User:U5YNDLZ4H - What issues are they facing exactly, you say they are bombarded?
+Channel: G603BJAQN User:U5YNDLZ4H - system issues?
+Channel: G603BJAQN User:U5YNDLZ4H - A western liaison who can organize and direct the team, right?
+Channel: G603BJAQN User:U5YNDLZ4H - How do you know the core team fabwa?
+Channel: C27HUP45N User:U5Z05SNAG - I hear no one about MIOTA???? the economy of things???
+Channel: C27HUP45N User:U5Z05SNAG - Is that gambling?
+Channel: C27HUP45N User:U5Z05SNAG - Where can I buy wagerr?
+Channel: C27HUP45N User:U5Z05SNAG - Where can i buy wagerr?
+Channel: C27HUP45N User:U600W7Y6N - explain to me why whales would'nt want to cash out and buy back cheaper again? they bought at around 4$
+Channel: C27HUP45N User:U5VD76C2H - when did you get in belbox
+Channel: C27HUP45N User:U2U5STU2X - Lol 150%?
+Channel: C27HUP45N User:U2U5STU2X - That must be biggest lie i ever seen ?
+Channel: C27HUP45N User:U2U5STU2X - Lowest 160, now 310? How can it be 150%?
+Channel: C27HUP45N User:U2U5STU2X - Do you have problem with math ?
+Channel: C27HUP45N User:U2U5STU2X - I did tell people yesterday ? Didnt I?
+Channel: C27HUP45N User:U5WUAGV37 - Big gain incoming???
+Channel: C27HUP45N User:U5W8FFNBS - pho_tai: What do you mean by profit taking?
+
+Do you mean take all the money you invested from ANS out including profit and re-entering it?
+Channel: C27HUP45N User:U5Z3SBJHL - when the major chinese companies adopt NEO
+Channel: C27HUP45N User:U5ZGS6UPP - what do you think about ripple guys
+Channel: C27HUP45N User:U61AHA4UF - Any thoughts here on $IOC? They are launching their tech at short notice but are below radar <http://www.iodigital.io|www.iodigital.io>
+Channel: C27HUP45N User:U5UU6A62U - Does anyone think btc will dip hard again? I might wait until then unless a better opportunity arises.
+Channel: C27HUP45N User:U600W7Y6N - is there any reliable source when the rebranding will happen?
+Channel: C27HUP45N User:U5W2VJ47M - What color lambo will you guys pick?
+Channel: G603BJAQN User:U5YGN7UEM - Anyone here had a chance to play around on the Antshare blockchain yet?
+Channel: G603BJAQN User:U5YGN7UEM - Does it really cost 500 ANC to deploy a Smart contract currently?
+Channel: G603BJAQN User:U5YGN7UEM - Is there any way I can get access to some ANC on the testnet?
+Channel: G603BJAQN User:U5YGN7UEM - Or is it more worthwhile to start and run a private net?
+Channel: C27HUP45N User:U60FHSE5T - does anyone think that ANS will see 5usd again ? within 1 week ?
+Channel: G603BJAQN User:U4NH18W8K - How is everybody doing today?
+Channel: C27HUP45N User:U5X8JAA2G - anyone selling ANS?
+Channel: C27HUP45N User:U5Z05SNAG - when we hear nothing for a while
+Channel: C27HUP45N User:U5X8JAA2G - what you prefer
+Channel: C27HUP45N User:U5X8JAA2G - ETH or LTC?
+Channel: C27HUP45N User:U5WUX5AH2 - Isn't it lower than 9 right now lol. Why don't you buy from an exchange?
+Channel: C27HUP45N User:U60A85A4V - he will move the market for 10k?
+Channel: C27HUP45N User:U5WDHP0UW - They will have cross blockchain operability?
+Channel: C27HUP45N User:U5UL58CUQ - Then how does one invest in such a project ?
+Channel: C27HUP45N User:U5WDHP0UW - Can it integrate blockchains tho Chris?
+Channel: C27HUP45N User:U2U5STU2X - Bittrex ui make me sick ?
+Channel: C27HUP45N User:U2U5STU2X - Or no BTC ? Just flashing around here
+Channel: G603BJAQN User:U5XMVDGG2 - Is the source available for the web wallet `<https://app.antshares.org/>` ?
+Channel: C27HUP45N User:U5WKMH8UA - Do you all think the price will drop to about 300k again?
+Channel: G603BJAQN User:U5TU76U4T - have you made any progress there?
+Channel: C27HUP45N User:U5Z05SNAG - Guys I have question as much more devs start to buils on eth or neo? Does this affect the price of the share going up too? Or it has nothing to do with it?
+Channel: C27HUP45N User:U5BBD0ALS - if its never gonna dip then whats the issue?
+Channel: C27HUP45N User:U5Z05SNAG - You mean we buy now and share our neos? And split the price?
+Channel: C27HUP45N User:U5Z05SNAG - Everyday on different price levels?
+Channel: G603BJAQN User:U5TU76U4T - the other thing i was thinking (no way this can scale, right?) is that the web wallet might download info for literally every block
+Channel: G603BJAQN User:U5TU76U4T - which has the same log in before execute thing on the node
+Channel: G603BJAQN User:U5ZFXKXD0 - perhaps the web wallet app is itself a node?
+Channel: G603BJAQN User:U5TU76U4T - hmm, so web wallet contains a full node implementation? that seems unlikely to me, but maybe
+Channel: G603BJAQN User:U5TU76U4T - when i look at outgoing requests in chrome dev tools, everything is swamped by “getblockcount” requests (it sends thousands of them), will see if I can find a way to clean those out and inspect more thoroughly later
+Channel: C27HUP45N User:U5XMK6DHB - that's exceptionally low, even for the crypto world, right?
+Channel: C27HUP45N User:U5WU1B1M5 - What page?
+Channel: C27HUP45N User:U5WU1B1M5 - How many people are still just using the exchanges
+Channel: C27HUP45N User:U5WU1B1M5 - Unless that is also captured?
+Channel: C27HUP45N User:U5XMK6DHB - very good point - do exchanges count as one big wallet, though? I think they must create a "wallet" for each individual holder, if we've got independent addresses
+Channel: C27HUP45N User:U5Z05SNAG - But guys how are you doing this right now?
+Channel: C27HUP45N User:U5Z05SNAG - Is 1 ans
+Channel: G603BJAQN User:U5TU76U4T - but if so, how is the web wallet sending anything? :stuck_out_tongue:
+Channel: G603BJAQN User:U5YNDLZ4H - I mean the code really only allows for on variable and its the hex of a "signed transaction", signed pretty much means broadcast and soon to be or already mined? Somebody correct me if i got this wrong
+Channel: G603BJAQN User:U5YNDLZ4H - sendtransaction has the sending code doesnt it?
+Channel: G603BJAQN User:U5YNDLZ4H - asset manager? Wallet?
+Channel: C27HUP45N User:U5VAD50CV - Anyone know Status ico price?
+Channel: C27HUP45N User:U5XMK6DHB - I assume that must be true, but it makes you wonder why other exchanges haven't jumped on the opportunity to do the same, right?
+Channel: C27HUP45N User:U5ZKNEB3N - If it goes into more exchanges, wouldn't it get dumped on instead?
+Channel: C27HUP45N User:U5ZNMH81G - Can you have 2 portfolios in blockfolio?
+Channel: C27HUP45N User:U5Z05SNAG - can someone explain the strategy behind this?
+Channel: C27HUP45N User:U60TBFS8M - How much is 1 ANC worth today?
+Channel: C27HUP45N User:U5Z05SNAG - ever seen a chart like this?
+Channel: C27HUP45N User:U5WDHP0UW - Who knows when ans first got big they bought it for days str8
+Channel: C27HUP45N User:U5ZKNEB3N - At $300, what's the market cap going to be? I wonder
+Channel: G603BJAQN User:U5ZKNEB3N - I mean, would the current code structure allows for that?
+Channel: C27HUP45N User:U5Z05SNAG - I also like storj do you know it?
+Channel: C27HUP45N User:U5WT5UTJL - You guys think synereo will have a good couple of days? With the release of wildspark being the 30th
+Channel: C27HUP45N User:U5ZKNEB3N - Yes, but that rely on network effect? Unless I'm mistaken.
+Channel: C27HUP45N User:U5Z05SNAG - Yes metalpay do you know more about it? how to get a share in it?
+Channel: G603BJAQN User:U5ZKNEB3N - Or is it better for me to try doing it as a separate bot?
+Channel: C27HUP45N User:U5Z2ZN3F0 - why chase litecoin when bitcoin is going to do well :stuck_out_tongue:
+Channel: C27HUP45N User:U5Z05SNAG - huge buy walls?
+Channel: C27HUP45N User:U5VHTTRR8 - are you day trading <@U5WDHP0UW> ?
+Channel: C27HUP45N User:U5Z05SNAG - The chinese start selling?????
+Channel: C27HUP45N User:U5VJARQG0 - u think guys they gonna make it dip tn?
+Channel: C27HUP45N User:U5WUX5AH2 - Whoever bought at that range that is
+Channel: C27HUP45N User:U5Z05SNAG - When most Westerns will realize the value of NEO they will be too late
+Channel: C27HUP45N User:U5Z05SNAG - or they cancelled it?
+Channel: C27HUP45N User:U5Z05SNAG - you think it should be worth right now $40?
+Channel: C27HUP45N User:U5Z3SBJHL - Remember when ethereum was $8?
+Channel: C27HUP45N User:U5Z05SNAG - who lost a lot of money in BTC
+Channel: C27HUP45N User:U5TBNPDMW - Where you buy at low prices like these are huge if you hold long term.
+Channel: C27HUP45N User:U5Z05SNAG - What do you guys think about ETC&gt;
+Channel: C27HUP45N User:U2U5STU2X - Anyone know how to create token on NEO block chain ??
+Channel: C27HUP45N User:U2U5STU2X - Or only way is 10k GAS ?
+Channel: C27HUP45N User:U5Y2S1B63 - anyone here own bitshares?

@@ -8,7 +8,7 @@ module.exports = Brain;
 
 function Brain() {
   this.classifier = new NLP.LogisticRegressionClassifier();
-  this.minConfidence = 0.7;
+  this.minConfidence = 0.8;
 }
 
 Brain.prototype.teach = function(label, phrases) {
@@ -41,7 +41,7 @@ Brain.prototype.interpret = function(phrase) {
   };
 };
 
-Brain.prototype.invoke = function(skill, info, bot, message) {
+Brain.prototype.invoke = function(skill, info, bot, message, controller) {
   var skillCode;
   
   // check the sentiment 
@@ -54,12 +54,12 @@ Brain.prototype.invoke = function(skill, info, bot, message) {
 
   console.log('Grabbing code for skill: ' + skill);
   try {
-    skillCode = require('../skills/' + skill);
+    skillCode = require('../skills/' + skill + '.js');
   } catch (err) {
-    throw new Error('The invoked skill doesn\'t exist!');
+    throw new Error('The invoked skill doesn\'t exist!' + '../skills/' + skill);
   }
   console.log('Running skill code for ' + skill + '...');
-  skillCode(skill, info, bot, message, senti);
+  skillCode(skill, info, bot, message, senti, controller);
   return this;
 };
 
