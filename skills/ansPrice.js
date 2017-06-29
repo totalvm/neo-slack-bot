@@ -3,7 +3,7 @@ module.exports = function(skill, info, bot, message, senti, controller) {
   console.log(message);
   controller.storage.channels.get(message.channel, function(err, res) {
     if(err) {
-      getPrices(message, bot, controller, sendPublicMessage);
+      getPrices(message, bot, controller, sendPrivateMessage, true);
     } else {
       const oldTime = res.time.split('.')[0];
       const newTime = message.ts.split('.')[0];
