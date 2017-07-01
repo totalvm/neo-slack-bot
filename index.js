@@ -35,7 +35,6 @@ Bottie.Teach = Bottie.Brain.teach.bind(Bottie.Brain);
 eachKey(customPhrases, Bottie.Teach);
 eachKey(builtinPhrases, Bottie.Teach);
 Bottie.Brain.think();
-console.log('Bottie finished learning, time to listen...');
 Bottie.Ears
   .listen()
   .hear('TRAINING TIME!!!', function(speech, message) {
