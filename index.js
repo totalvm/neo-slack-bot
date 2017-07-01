@@ -1,20 +1,21 @@
 "use strict";
+
 const fs = require('fs');
 
 const Bot = require('./bot.js');
 
-var Train = require('./src/train');
-var Brain = require('./src/brain');
-var Ears = require('./src/ears');
-var builtinPhrases = require('./builtins');
+const Train = require('./src/train');
+const Brain = require('./src/brain');
+const Ears = require('./src/ears');
+const builtinPhrases = require('./builtins');
 
-var Bottie = {
+const Bottie = {
   Brain: new Brain(),
   Ears: new Ears(Bot, process.env.token)
 };
 
-var customPhrasesText;
-var customPhrases;
+let customPhrasesText;
+let customPhrases;
 try {
   customPhrasesText = fs.readFileSync(__dirname + '/custom-phrases.json').toString();
 } catch (err) {

@@ -114,7 +114,7 @@ const createMessage = (cur, curInfo) => {
           short: true
         },
         {
-          value: "Volume 24h in" + curInfo.TOSYMBOL,
+          value: "Volume 24h in " + curInfo.TOSYMBOL,
           short: true
         },
         {
@@ -150,7 +150,7 @@ const createMessage = (cur, curInfo) => {
           short: true
         },
         {
-          value: curInfo.CHANGEPCT24HOUR + '$',
+          value: '$ ' + curInfo.CHANGEPCT24HOUR,
           short: true
         }
       ],
