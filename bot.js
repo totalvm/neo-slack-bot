@@ -15,7 +15,7 @@ const bot_options = {
   clientSecret: process.env.clientSecret,
   token: process.env.token,
   // debug: true,
-  scopes: ['bot', 'commands']
+  scopes: ['bot', 'commands', 'incoming-webhook', 'identify']
 };
 
 // Use a mongo database if specified, otherwise store in a JSON file local to the app.

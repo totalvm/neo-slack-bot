@@ -1,7 +1,7 @@
 const createIgnoreMessage = (type) => {
   const ignoreAttachment =  {
     "text": "In the future would you like to ignore this message?",
-    "callback_id": "callback|" + type,
+    "callback_id": "ignore|" + type,
     "attachment_type": "default",
     "actions": [
       {
