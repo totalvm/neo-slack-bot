@@ -10,6 +10,7 @@ module.exports = (command, type) => {
   // Construct path to the macro
   const path = require("path").join(__dirname, "commands", command) + '.js';
   // Check if file exists in sync (could be converted to async if a callback is passed)
+  console.log(path);
   if (fs.existsSync(path)) {
     // Require the file
     const com = require(path);

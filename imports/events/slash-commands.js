@@ -8,7 +8,7 @@ module.exports = function(controller) {
     const command = args.shift();
   
     // Gets the macro
-    const commandObject = getCommand(command, 'macro');
+    const commandObject = getCommand(command, 'commands');
     if (commandObject !== false) {
       // call the macro and send the rest of the arguments with it
       commandObject.command(controller, bot, message, args);
