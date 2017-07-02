@@ -1,22 +1,17 @@
 module.exports = function(controller) {
-  controller.on('interactive_message_callback', function(bot, trigger) {
-    console.log('MESSAGE', trigger);
-    /**
-     * Message.text contains all the arguments placed after the slash command
-     * The first argument after the slash command always contains the macro
-     *
-     * @type {Array}
-     */
-    const arguments = message.text.split(' ');
+  controller.on('interactive_message_callback', function(bot, message) {
+    console.log('COMMAND', message);
+    const getCommand = require('../get-command');
+    const args = message.text.split(' ');
   
     // Get the macro
-    const command = arguments.shift();
+    const command = args.shift();
   
     // Gets the macro
-    const macroObject = getMacro(command, 'macro');
-    if (macroObject !== false) {
+    const commandObject = getCommand(command, 'macro');
+    if (commandObject !== false) {
       // call the macro and send the rest of the arguments with it
-      macroObject.macro(controller, bot, message, arguments);
+      commandObject.command(controller, bot, message, args);
     } else {
       console.log('Macro does not exist: ', command);
     }
