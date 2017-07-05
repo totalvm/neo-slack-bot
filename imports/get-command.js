@@ -10,11 +10,12 @@ module.exports = (command, type) => {
   // Construct path to the macro
   const path = require("path").join(__dirname, "commands", command) + '.js';
   // Check if file exists in sync (could be converted to async if a callback is passed)
-  console.log(path);
+  console.log('looking for this path', path);
   if (fs.existsSync(path)) {
     // Require the file
     const com = require(path);
     // Check if the type of call exists in the macro
+    console.log('Has property: ', type);
     if (com.hasOwnProperty(type)) {
       return com;
     }

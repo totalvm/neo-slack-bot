@@ -13,7 +13,7 @@ function Brain() {
 
 Brain.prototype.teach = function(label, phrases) {
   phrases.forEach(function(phrase) {
-    console.log('Ingesting example for ' + label + ': ' + phrase);
+   // console.log('Ingesting example for ' + label + ': ' + phrase);
     this.classifier.addDocument(phrase.toLowerCase(), label);
   }.bind(this));
   return this;
@@ -26,7 +26,6 @@ Brain.prototype.think = function() {
   var aPath = './src/classifier.json';
   this.classifier.save(aPath, function(err, classifier) {
     // the classifier is saved to the classifier.json file!
-    console.log('Writing: Creating a Classifier file in SRC.');
     });
 
   return this;
@@ -46,19 +45,13 @@ Brain.prototype.invoke = function(skill, info, bot, message, controller) {
   
   // check the sentiment 
   let senti = sentiment(message.text);
-  if (senti.score != 0) {
-    console.log('\n\tSentiment value: ');
-    console.dir(senti); 
-    console.log('\n');
-    }
 
   console.log('Grabbing code for skill: ' + skill);
   try {
-    skillCode = require('../skills/' + skill + '.js');
+    skillCode = require('../imports/skills/' + skill + '.js');
   } catch (err) {
     throw new Error('The invoked skill doesn\'t exist!' + '../skills/' + skill);
   }
-  console.log('Running skill code for ' + skill + '...');
   skillCode(skill, info, bot, message, senti, controller);
   return this;
 };

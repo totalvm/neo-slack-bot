@@ -1,9 +1,17 @@
 "use strict";
 
+const mongo = require('mongodb');
+const ObjectID = mongo.ObjectID;
+const mongoose = require('mongoose');
+const env = require('node-env-file');
+env(__dirname + '/.env');
+mongoose.connect(process.env.MONGO_URI);
+
 const fs = require('fs');
 
 const Bot = require('./bot.js');
 
+const database = require('./imports/database/collections')(mongoose);
 const Train = require('./src/train');
 const Brain = require('./src/brain');
 const Ears = require('./src/ears');
@@ -29,8 +37,6 @@ try {
     'not valid JSON! Fix it, please? :)');
 }
 
-
-console.log('Bottie is learning...');
 Bottie.Teach = Bottie.Brain.teach.bind(Bottie.Brain);
 eachKey(customPhrases, Bottie.Teach);
 eachKey(builtinPhrases, Bottie.Teach);
@@ -42,25 +48,45 @@ Bottie.Ears
     Train(Bottie.Brain, speech, message);
   })
   .hear('.*', function(speech, message) {
-    const regex = /^(how|when|is|which|what|whose|who|whom|where|why)(.*)|([^.!?]+\?)/igm;
+    const regex = /^(how|when|is|which|what|whose|who|whom|where|why|can)(.*)|([^.!?]+\?)/igm;
   
     const isQuestion = regex.test(message.text);
-    console.log('IS QUESTION: ', isQuestion);
+    // append.write [message.text] ---> to a file
+    Bot.storage.questions.save({
+      _id: new ObjectID(),
+      id: new ObjectID(),
+      isQuestion: isQuestion,
+      text: message.text
+    });
     if(isQuestion) {
-      var interpretation = Bottie.Brain.interpret(message.text);
+      const interpretation = Bottie.Brain.interpret(message.text);
       console.log('Bottie heard: ' + message.text);
       console.log('Bottie interpretation: ', interpretation);
       if (interpretation.guess) {
         console.log('Invoking skill: ' + interpretation.guess);
-        
-        Bottie.Brain.invoke(interpretation.guess, interpretation, speech, message, Bot);
-      } else {
-        //speech.replyPrivate(message, 'Hmm... I don\'t have a response what you said... I\'ll save it and try to learn about it later.');
-        // speech.reply(message, '```\n' + JSON.stringify(interpretation) + '\n```');
-    
-        // append.write [message.text] ---> to a file
-        fs.appendFile('phrase-errors.txt', '\nChannel: ' + message.channel + ' User:' + message.user + ' - ' + message.text, function (err) {
-          console.log('\n\tBrain Err: Appending phrase for review\n\t\t' + message.text + '\n');
+        database.ignore.findOne({user: message.user, skill: interpretation.guess}, function(err, res) {
+          const dateDiff = require('./imports/helpers/date-diff');
+          let invoke = true;
+          if(err === null && res !== null) {
+            const newDate = new Date(res.dateUpdated);
+            switch(res.interval) {
+              case '1h':
+                invoke = (dateDiff(new Date(), newDate, 'hours') > 1);
+                break;
+              case '12h':
+                invoke = (dateDiff(new Date(), newDate, 'hours') > 12);
+                break;
+              case '24h':
+                invoke = (dateDiff(new Date(), newDate, 'hours') > 24);
+                break;
+              case 'forever':
+                invoke = false;
+                break;
+            }
+          }
+          if(invoke) {
+            Bottie.Brain.invoke(interpretation.guess, interpretation, speech, message, Bot);
+          }
         });
       }
     }

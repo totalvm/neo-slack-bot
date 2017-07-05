@@ -20,34 +20,17 @@ const https = require('https');
 const timeout = 300; // seconds to send to channel
 
 const getPrices = (message, bot, controller, cb, save) => {
-  https.get('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ANS&tsyms=BTC,USD', function(response) {
-    let str = '';
-    
+  const request = require('request');
+  request.get({
+    url: 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ANS&tsyms=BTC,USD'
+  }, function(err, response) {
+    //console.log('GET RESPONSE!', response.body);
+    const prices = JSON.parse(response.body);
+    console.log(prices);
     //another chunk of data has been recieved, so append it to `str`
-    response.on('data', function (chunk) {
-      str += chunk;
-    })
     
-    //the whole response has been recieved, so we just print it out here
-      .on('end', function () {
-        const prices = JSON.parse(str);
-        const saveObject = {
-          id: message.channel,
-          time: message.ts,
-          cur: 'ANS'
-        };
-        if(save) {
-          controller.storage.channels.save(saveObject, function (err) {
-            if (!err) {
-              console.log('SAVED', saveObject);
-            } else {
-              console.log('SAVE ERROR', err);
-            }
-          });
-        }
-        cb(message, bot, prices);
+    cb(message, bot, prices);
   
-      });
   });
 };
 
@@ -168,5 +151,3 @@ const sendPublicMessage = (message, bot, prices) => {
     bot.reply(message, msg);
   }
 };
-
-

@@ -246,3 +246,30 @@ Channel: C27HUP45N User:U5Z05SNAG - What do you guys think about ETC&gt;
 Channel: C27HUP45N User:U2U5STU2X - Anyone know how to create token on NEO block chain ??
 Channel: C27HUP45N User:U2U5STU2X - Or only way is 10k GAS ?
 Channel: C27HUP45N User:U5Y2S1B63 - anyone here own bitshares?
+Channel: C20CML7A9 User:U5B5N55R6 - which is incredible
+Channel: G603BJAQN User:U5VL23JQJ - Do we just want those tutorial videos transcribed or are you trying to recreate them in English?
+Channel: C20CML7A9 User:U5WU1B1M5 - whats your conclusion @coin10...very much early days but obviously huge potential I assume
+Channel: G603BJAQN User:U61E44TND - anyone want to shoot holes in the initial, consensus doc?
+Channel: G603BJAQN User:U61REKR7X - holes?
+Channel: G603BJAQN User:U61REKR7X - you mean editing?
+false: that was exciting, pulled the trigger a little too soon, but damn
+false: yunbi and bittrex
+false: okay
+true: <@U5B5N55R6> what do you mean with sample size?
+false: I'm still not convinced that they should be splitting from calling themselves PoS
+false: finally set up a mongodb server for my bot :slightly_smiling_face: Will be developing many features now i got the basics all set up
+false: just need to convert my code so it uses the database instead :stuck_out_tongue:
+false: you can use a free service
+false: for what
+false: for mongodb
+false: it changes, even the one ahead in volume changes
+false: no i'd rather use my own server
+false: okay
+false: not doing anything anyways
+false: might as well use it
+false: but Jubi is usually higher than bittrex
+false: yunbi alway used to be lower
+false: but the current low prices are related to the low btc price
+false: and the chinese markets are CNY instead of BTC
+false: so they were above bittrex today
+false: wait nevermind I messed the math up

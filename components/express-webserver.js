@@ -8,7 +8,7 @@ module.exports = function(controller) {
   webserver.use(bodyParser.json());
   webserver.use(bodyParser.urlencoded({ extended: true }));
   
-  webserver.use(express.static('public'));
+  webserver.use('/', express.static('public'));
   
   webserver.listen(process.env.PORT || 3000, null, function() {
     

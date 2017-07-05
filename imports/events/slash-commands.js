@@ -1,14 +1,14 @@
 module.exports = function(controller) {
   controller.on('slash_command', function(bot, message) {
-    console.log('COMMAND', message);
+    console.log('slash_command', message);
     const getCommand = require('../get-command');
-    const args = message.text.split(' ');
-  
-    // Get the macro
-    const command = args.shift();
+    let args = [];
+    if(message.text !== '') {
+      args = message.text.split(' ');
+    }
   
     // Gets the macro
-    const commandObject = getCommand(command, 'commands');
+    const commandObject = getCommand(message.command, 'command');
     if (commandObject !== false) {
       // call the macro and send the rest of the arguments with it
       commandObject.command(controller, bot, message, args);

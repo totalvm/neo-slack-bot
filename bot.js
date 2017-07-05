@@ -1,6 +1,6 @@
+const mongoose = require('mongoose');
 const env = require('node-env-file');
 env(__dirname + '/.env');
-
 
 if (!process.env.clientId || !process.env.clientSecret || !process.env.PORT) {
   console.log('Error: Specify clientId clientSecret and PORT in environment');
@@ -21,7 +21,7 @@ const bot_options = {
 // Use a mongo database if specified, otherwise store in a JSON file local to the app.
 // Mongo is automatically configured when deploying to Heroku
 if (process.env.MONGO_URI) {
-  const mongoStorage = require('botkit-storage-mongo')({mongoUri: process.env.MONGO_URI});
+  const mongoStorage = require('botkit-storage-mongo')({mongoUri: process.env.MONGO_URI, tables: ['questions', 'ignore', 'devskills']});
   bot_options.storage = mongoStorage;
 } else {
   bot_options.json_file_store = __dirname + '/.data/db/'; // store user data in a simple JSON format

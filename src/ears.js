@@ -20,7 +20,6 @@ function Ears(bot, token) {
 }
 
 Ears.prototype.listen = function() {
-  console.log('TOKEN: ' + this.token);
   this.bot = Bot.spawn({
     token: this.token
   }).startRTM();
@@ -28,7 +27,6 @@ Ears.prototype.listen = function() {
 };
 
 Ears.prototype.hear = function(pattern, callback) {
-  console.log('HEAR', pattern);
   Bot.hears(pattern, this.scopes, callback);
   return this;
 };
